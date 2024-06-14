@@ -19,15 +19,15 @@ public class Temperature {
 
         }
         int sum = 0;
-        for (int i = 0; i <= temperature.size(); i++) {
+        for (int i = 0; i < temperature.size(); i++) {
             sum += temperature.get(i);// средняя температура
         }
 
-        for (int i = 0; i <= temperature.size(); i++) {// создание самого элемента
+        for (int i = 0; i < temperature.size(); i++) {// создание самого элемента
             double number = (velue - 1);
             double diff = velue - number;
         }
-        for (int i = 0; i <= temperature.size(); i++) {
+        for (int i = 0; i < temperature.size(); i++) {
             sum += temperature.get(i);
             int number = (velue - 1);
             double tenPersent = velue * 0.1;
@@ -39,7 +39,7 @@ public class Temperature {
 
             }
             //3.1
-            for (int j = 0; j <= temperature.size(); j++) {
+            for (int j = 0; j < temperature.size(); j++) {
                 int size = temperature.size();
                 if (size >= 10) {
                     temperature.subList(size - 10, size);//дополнительный метод
